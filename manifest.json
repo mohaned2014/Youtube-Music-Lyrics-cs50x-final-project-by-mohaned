@@ -13,7 +13,6 @@
   "permissions": [
   "activeTab",
   "tabs",
-  //"alwaysOnTopWindows",
   "storage",
   "https://api.lyrics.ovh/",
   "https://api.alltomp3/"
