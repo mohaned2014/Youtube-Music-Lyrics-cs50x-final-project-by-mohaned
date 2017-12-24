@@ -46,7 +46,7 @@ function linkifyYouTubeURLs(url) {
 function YoutubeName(id) {
 
         var xhr =new XMLHttpRequest();
-        xhr.open('GET','https://www.googleapis.com/youtube/v3/videos?id='+id+'&key=AIzaSyAAoVgWMlMiuoyhU2xAkMJ9YAPthUsGXAA&fields=items(snippet(title))&part=snippet',true);
+        xhr.open('GET','https://www.googleapis.com/youtube/v3/videos?id='+id+'&key='+your youtube key + '&fields=items(snippet(title))&part=snippet',true);
 
          xhr.onload = function () {
 
